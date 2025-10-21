@@ -7,5 +7,8 @@ public class Main {
         BilligsteTastatur billigsteTastatur = new BilligsteTastatur();
         System.out.println("Billigste Tastatur: " + BilligsteTastatur.getBilligste(tastaturen));
 
+        TeuersteGestand teuersteGestand = new TeuersteGestand();
+        System.out.println("Teuerste Gestand: " + TeuersteGestand.get_TeuersteGestand(tastaturen, USBlaufwerke));
+
     }
 }
