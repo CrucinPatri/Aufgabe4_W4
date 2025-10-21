@@ -10,5 +10,9 @@ public class Main {
         TeuersteGestand teuersteGestand = new TeuersteGestand();
         System.out.println("Teuerste Gestand: " + TeuersteGestand.get_TeuersteGestand(tastaturen, USBlaufwerke));
 
+        TeuersteUSBNachBuget teuersteUSBNachBuget = new TeuersteUSBNachBuget();
+        System.out.println("Teuerste USB der Mark nach seinem Buget kaufen kann:" +
+                TeuersteUSBNachBuget.teuersteUSBnachBuget(USBlaufwerke, buget));
+
     }
 }
